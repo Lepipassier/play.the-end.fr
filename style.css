@@ -1,0 +1,110 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #1A1C2C;
+  font-family: 'Orbitron', sans-serif;
+  color: #A8C0D9;
+}
+
+.header {
+  text-align: center;
+  padding: 40px 0 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+h1 a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: text-shadow 0.3s ease;
+}
+
+h1 a:hover {
+  text-shadow: 0 0 6px #A8C0D9;
+}
+
+.navbar {
+  background-color: #202530;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navbar li a {
+  display: block;
+  padding: 15px 20px;
+  color: #A8C0D9;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.navbar li a:hover {
+  background-color: #030508;
+}
+
+main {
+  flex: 1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.highlight {
+  color: #E5B567;
+}
+
+.intro h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  background-color: #A8C0D9;
+  color: #1A1C2C;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #E5B567;
+  color: #000;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  background-color: #202530;
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
