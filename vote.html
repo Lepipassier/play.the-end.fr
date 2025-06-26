@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vote - The End</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      background-color: #1A1C2C;
+      font-family: 'Orbitron', sans-serif;
+      color: #A8C0D9;
+      margin: 0;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .back-btn {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background-color: #A8C0D9;
+      color: #1A1C2C;
+      padding: 10px 18px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+
+    .back-btn:hover {
+      background-color: #E5B567;
+      color: #000;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 80px auto 40px;
+      padding: 0 20px;
+      text-align: center;
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    h1 {
+      color: #E5B567;
+      margin-bottom: 25px;
+      font-size: 2.4rem;
+    }
+
+    .coming-soon {
+      margin-top: 20px;
+      background-color: #202530;
+      padding: 20px;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <a href="../index.html" class="back-btn">← Retour</a>
+
+  <main>
+    <h1>Vote pour le serveur</h1>
+    <p>
+      Le système de vote permettra bientôt de soutenir <span class="highlight">The End</span> et d’obtenir des récompenses exclusives en jeu.
+    </p>
+
+    <div class="coming-soon">
+      🕒 Le vote n’est pas encore disponible.<br />
+      Il sera ajouté prochainement !
+    </div>
+  </main>
+
+</body>
+</html>
